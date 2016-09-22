@@ -1,0 +1,43 @@
+body {
+    background: #E5D099;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: arial, sans-serif;
+    overflow: hidden;
+    background-color: #523E07
+}
+
+nav li a {
+    display: block;
+    color: #E5D099;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav li a:hover {
+    background-color: #7A611F;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+h1 {
+    background-color: #053725;
+    color: #E5D099;
+    font-size: 80px;
+    font-family: Georgia, Palatino, serif;
+    height: 105px;
+    text-align: center;
+    margin-bottom: 0px;
+}
