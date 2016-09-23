@@ -3,10 +3,33 @@ body {
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
     font-size: 52px;
     color: #183152;
     font-family: bangla MN, sans-serif;
+    margin: 0;
+}
+
+#header {
+    background-image: url("../img/content/mainpage.png");
+    background-repeat: repeat-x;
+    height: 100%;
+    width: 100%;
+    padding: 75px;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    position: relative;
+}
+
+#floating {
+    position: absolute;
+    top: 100px;
+}
+
+h2 {
+    color: #183152;
+    font-family: bangla MN, sans-serif;
+    font-size: 22px;
 }
 
 h3 {
@@ -14,15 +37,18 @@ h3 {
     font-family: bangla MN, sans-serif;
 }
 
-h3 {
-    color: #183152;
+form {
     font-family: bangla MN, sans-serif;
+    margin-right:25%;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     overflow: hidden;
     background-color: #183152;
 }
@@ -33,7 +59,7 @@ p {
     color: black;
 }
 
-#center {
+.center {
     display: block;
     margin: 0 auto;
 }
@@ -68,8 +94,6 @@ section {
   background: #FFFFFF;
   min-width: 1000px;
   padding: 5px;
-    width: 60%;
-    margin: auto;
 }
 
 .border {
@@ -87,13 +111,17 @@ section {
     font-family: bangla MN, sans-serif;
 }
 
+.dsm {
+    max-width: 100%;
+}
 
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 5px 5px;
+    padding: 14px 16px;
     text-decoration: none;
+    font-family: bangla MN, sans-serif;
 }
 
 .left {
