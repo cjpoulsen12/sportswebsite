@@ -2,7 +2,7 @@ body {
     background: #E5D099;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
@@ -14,22 +14,17 @@ nav ul{
 nav li a {
     display: block;
     color: #E5D099;
-    text-align: center;
     padding: 14px 20px;
+    font-size: 20px;
     text-decoration: none;
-    font-size: 25px;
+}
+
+nav li {
+    float: left;
 }
 
 nav li a:hover {
     background-color: #7A611F;
-}
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
 }
 
 h1 {
@@ -39,5 +34,13 @@ h1 {
     font-family: Georgia, Palatino, serif;
     height: 105px;
     text-align: center;
-    margin-bottom: 0px;
+    margin: 0px;
+}
+
+footer{
+    text-align: center;
+}
+
+form {
+    margin: 5px;
 }
