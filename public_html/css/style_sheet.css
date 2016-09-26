@@ -42,5 +42,24 @@ footer{
 }
 
 form {
-    margin: 5px;
+    margin: 50px;
+    text-align: center;
+}
+
+table {
+padding: 3px;
+text-align: center;
+border-style: solid;
+border-width: 3px;
+margin: 5px;
+border-radius: 15px;
+border-color: #6F1C31;
+}
+
+table thead th{
+padding: 10px;
+}
+
+table tbody td {
+padding: 10px;
 }
