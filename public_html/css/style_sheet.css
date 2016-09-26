@@ -11,16 +11,16 @@ nav ul {
     background-color: #523E07
 }
 
+nav li {
+    float: left;
+}
+
 nav li a {
     display: block;
     color: #E5D099;
+    text-align: center;
     padding: 14px 20px;
-    font-size: 20px;
     text-decoration: none;
-}
-
-nav li {
-    float: left;
 }
 
 nav li a:hover {
