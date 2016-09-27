@@ -1,55 +1,80 @@
 <!DOCTYPE html>
-<!--Christopher--> 
+<!--Ashtyne--> 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
 
-  <title>iSports - News Website</title>
-</head>
+  <head>
 
-<body>
-    <img src="img/content/mainpage.png" alt="All Sports Banner" width=500 />
-      <h1> iSports </h1>
-    <ul>
-      <li>
-        <a href="football.html">Football</a>
-      </li>
+    <meta charset="utf-8">
 
-      <li>
-        <a href="basketball.html">Basketball</a>
-      </li>
-      
-      <li>
-        <a href="baseball.html">Baseball</a>
-      </li>
-      
-      <li>
-        <a href="articles.html">Articles of the Day</a>
-      </li>
-      
-      <li>
-        <a href="signup.html">Sign Up</a>
-      </li>
-      
-      <li>
-        <a href="login.html">Login</a>
-      </li>
+    <title>iSports - News Website</title>
 
-      <li>
-        <a href="about.html">About</a>
-      </li>
-    </ul>
-  <p>Welcome to the iSports sports news website.</p>
-  <br />
-  <br />
-  <br />
-  <div>
-    <p> <a href="signup.html">Sign Up </a> or <a href="login.html">Login </a>.</p>
-  </div>
-  <br />
-  <br />
-  <div>
-    <a>Copyright 2016 iSports News</a>
-  </div>
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+    <style>
+      .below_menu_container {
+      padding-top: 50px;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="#">iSports</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Main Page</a></li>
+            <li><a href="football.html">Football</a></li>
+            <li><a href="basketball.html">Basketball</a></li>
+            <li><a href="baseball.html">Baseball</a></li>
+            <li><a href="articles.html">Articles of the Day</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container">
+      <div class="below_menu_container">
+
+        <img src="img/mainpage.png" alt="All Sports Banner" />
+
+        <h1> iSports </h1>
+
+        <h3>Welcome to the iSports sports news website.</h3>
+
+        <p> Take a look around the website and Learn about the latest sports news </p>
+
+        <div>
+          <p> <a href="signup.html">Sign Up </a> or <a href="login.html">Login </a>.</p>
+        </div>
+        
+        <br>
+
+        <footer> &copy; Copyright 2016, iSports News</footer>
+      </div>
+    </div>
+
+  </body>
+
 </html>
