@@ -5,6 +5,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   <title>iSports - Sign Up</title> 
+  
+  <style>
+        .below_menu_container {
+            padding-top: 50px;
+        }
+  </style>
 </head>
 
 <body>
@@ -47,23 +53,34 @@
     <h1> Sign Up </h1>
     
         <form>
-                First name: <br>
-                <input type="text" name="firstname"> <br><br>
-                Last name:<br>
-                <input type ="text" name="lastname"> <br><br>
+            <div class="form-group">
+                First name:
+                <input type="text" class="form-control" name="firstname">
+            </div>
+            <div class="form-group">
+                Last name:
+                <input type ="text" class="form-control" name="lastname">
+            </div>
+            <div class="form-group">
                 Gender: <br>
                 <input type="radio" name="gender" value="male"> Male <br>
                 <input type="radio" name="gender" value="female"> Female <br>
                 <input type="radio" name="gender" value="other"> Other<br><br>
-
+            </div>
+            
+            <div class="form-group">
                 Username: <br>
-                <input type="text" name="username"> <br><br>
+                <input type="text" class="form-control" name="username">
+            </div>
+            <div class="form-group">
                 Password: <br>
-                <input type="password" name="password"> <br>
+                <input type="password" class="form-control" name="password">
                 Confirm Password: <br>
-                <input type="password" name="confirmedPassword"> 
+                <input type="password" class="form-control" name="confirmedPassword"> 
                 <br><br>
-                <input type="submit" value="Submit">
+            </div>
+                <input type="submit"  class="btn btn-default active" value="Submit">
+            </div>
         </form>
         
 </body>
