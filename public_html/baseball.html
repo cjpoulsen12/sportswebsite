@@ -3,44 +3,63 @@
 <head>
   <meta charset="utf-8">
   <title>Isports - Baseball</title>
-  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <!-- This says our CSS is compatible with phones, and phones
+       don't need to scale it strangely. -->
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+    <style>
+    .below_menu_container {
+      padding-top: 50px;
+    }
+    p {
+        text-align: left;
+        font-size: 20px;
+        color: #1D2326;
+    } 
+  </style>
 </head>
 
 <body>  
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
 
-    <ul>
-        <li>
-           <a class="left" href="index.html">Home</a>
-        </li>
-        
-        <li>
-           <a class="left" href="football.html">Football</a>
-         </li>
+          <!-- Three line "hamburger" icon for the collapsed navigation -->
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
 
-         <li>
-           <a class="left" href="basketball.html">Basketball</a>
-         </li>
-      
-         <li>
-           <a class="left" href="baseball.html">Baseball</a>
-         </li>
-      
-         <li>
-           <a class="left" href="articles.html">Articles of the Day</a>
-         </li>
-         
-         <li>
-           <a class="left" href="about.html">About</a>
-         </li>
-      
-         <li>
-           <a class="right" href="signup.html">Sign Up</a>
-         </li>
-      
-         <li>
-           <a class="right" href="login.html">Login</a>
-         </li>
-    </ul>
+        <!-- Title on nav bar -->
+        <a class="navbar-brand" href="#">iSports</a>
+      </div>
+
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="football.html">Football</a></li>
+          <li><a href="basketball.html">Basketball</a></li>
+          <li class="active"><a href="baseball.html">Baseball</a></li>
+          <li><a href="articles.html">Articles of the Day</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="signup.html">Sign Up</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
    
     <div id="header">
         <h1></h1>
@@ -112,5 +131,8 @@
         <a style="font-size: 14px; font-family: bangla MN, sans-serif">&copy; Copyright 2016 iSports News</a>
     </div>
     
+  <!-- Scripts required to make Bootstrap work better. -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
