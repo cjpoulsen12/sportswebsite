@@ -7,14 +7,30 @@
 </head>
 
 <body>
-    <nav> 
-        <ul>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+
+            <!-- Three line "hamburger" icon for the collapsed navigation -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- Title on nav bar -->
+          <a class="navbar-brand" href="#">iSports</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class ="nav navbar-nav">
             <li>
-                <a href="index.html">Main Page</a> 
+                <a href="index.html">Main Page</a>  
             </li>
       
-            <li>
-                <a href="about.html">About</a>
+            <li class="active">
+                <a class="active" href="about.html">About</a>
             </li>
             
             <li>
@@ -41,9 +57,13 @@
                 <a href="signup.html">Sign Up</a>
             </li>
         </ul>
+        </div>
+      </div>
     </nav>
+
     
-<div class="container">
+<div class="below_menu_container">
+ <div class="container">
     <h1> Log In </h1>
         
         <form class="form-inline">
@@ -60,6 +80,7 @@
                 <input type="submit"  class="btn btn-default" value="Submit">
             </div>
         </form>
+</div>
 </div>
 </body>
 </html> 
