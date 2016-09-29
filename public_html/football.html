@@ -17,11 +17,52 @@
     .below_menu_container {
       padding-top: 50px;
     }
+    .below_header {
+      padding-top: 20px;
+    }
     p {
-        text-align: left;
-        font-size: 20px;
-        color: #1D2326;
-    } 
+      text-align: left;
+      font-size: 20px;
+      color: #1D2326;
+    }
+    .mycolor {
+      background-color: #EEEEEE;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 3px;
+    }
+    .header {
+      background-image: url("img/content/mainpage.png");
+      background-repeat: repeat-x;
+      height: 80%;
+      width: 100%;
+      padding: 65px;
+      opacity: 0.3;
+      filter: alpha(opacity=30);
+      position: relative;
+    }
+    .floating {
+      position: absolute;
+      top: 70px;
+    }
+    .jumbotron {
+      margin-bottom: 0px;
+      padding-bottom: 5px;
+      background-image: url("img/dsm.png");
+      background-position: 0% 25%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+      text-shadow: black 0.3em 0.3em 0.3em;
+
+    }
+    .lead {
+      color: white;
+      margin-top: 10%;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+    }
+    
   </style>
 </head>
 
@@ -60,46 +101,71 @@
       </div>
     </div>
   </nav>
-    
-    <div id="header">
-        <h1></h1>
-    </div>
-    <div id="floating">
-        <h1 style="text-align: left;font-size: 52px;color: #183152;" >Football</h1>    
-    </div>
-  
-    <section>
-        <div class="border">
-            <div class="scores">
-                <h3 style="font-size: 30px">Today's Scores </h3>
-                <ul>
-                  <li class="scores">Bears 0 vs. Crocodiles 14</li>
-                  <li class="scores">Flamingos 17 vs. Lemurs 12</li>
-                  <li class="scores">Snakes 0 vs. Potato 3</li>
-                </ul>
-            </div>
 
-            <div>
-                <h3 style="font-size: 30px">Image Gallery </h3>
-                <img src="img/content/footballplayer.png" alt=""/>
-                <p>Here you can see the player for the Flamingos running the football for their fourth touchdown of the game! What an incredible play that was! Be sure to check out any articles about the game on our article page!</p>
-                <br>
-                <img src="img/content/footballimage.png" alt=""/>
-                <p>Here is the close kick that almost gave the Snakes the win in their game today. It was a very hard loss and they fought very hard until the end. We can't wait to see what their team will do during the next game against the Fish.</p>
-            </div>
-            
-            <br>
-            <br>
+  <div class="below_menu_container">
+    <div  class="header">
+      <h1></h1>
+    </div>
 
-            <a href="link" style="font-size: 24px">Load More</a>
-        </div>
-    </section>
-    
-    <br>
-    <br>
+    <div class="floating">
+        <h1 style="text-align: center;font-size: 70px;color: #183152; font-weight: bold; margin: 20px;" >  iSports</h1>    
+    </div>
+  </div>
+
+    <!--Main Content-->
+  <div class="container">
     <div>
-        <a style="font-size: 14px; font-family: bangla MN, sans-serif">&copy; Copyright 2016 iSports News</a>
+      <div>
+          <h1 style="text-align: left;font-size: 45px;color: #183152;">Football</h1>    
+      </div>
+
+      <div>
+        <h2>Today's Scores </h2>
+        <ul>
+          <li style="font-size: 20px;">Bears 0 vs. Crocodiles 14</li>
+          <li style="font-size: 20px;">Flamingos 17 vs. Lemurs 12</li>
+          <li style="font-size: 20px;">Snakes 0 vs. Potato 3</li>
+        </ul>
+      </div>
+
+      <br>
+      <br>
+
+      <div class="row placeholders">
+        <div class="col-xs-6 col-sm-3 placeholder">
+          <img src="img/content/footballplayer.png" width="200" height ="200" class="img-responsive" alt="Football Player">
+          <h4>Football</h4>
+          <span class="text-muted">Here you can see the player for the Flamingos running the football for their fourth touchdown of the game! What an incredible play that was! Be sure to check out any articles about the game on our article page!</span>
+        </div>
+
+        <div class="col-xs-6 col-sm-3 placeholder">
+          <img src="img/content/footballimage.png" width="200" height ="200" class="img-responsive" alt="Touchdown">
+          <h4>Touchdown</h4>
+          <span class="text-muted">Here you can see the player for the Flamingos running the football for their fourth touchdown of the game! What an incredible play that was! Be sure to check out any articles about the game on our article page!</span>
+        </div>
+
+        <div class="col-xs-6 col-sm-3 placeholder">
+          <img src="img/bill.png" width="200" height ="200" class="img-responsive" alt="Bill">
+          <h4>Fred Owe's Money</h4>
+          <span class="text-muted">Last night, Fred Bball Jones was not allowed to play on the field due to him owing a substantial amount of money to many people. More on this soon.</span>
+        </div>
+
+        <div class="col-xs-6 col-sm-3 placeholder">
+          <img src="img/NFL.png" width="200" height ="200" class="img-responsive" alt="NFL">
+          <h4>Football Signing</h4>
+          <span class="text-muted">Last Night Bob Player signed the football that he used to get the touchdown to win the game. What an incredible moment in football history.</span>
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <div>
+          <a style="font-size: 20px;">&copy; Copyright 2016 iSports News</a>
+      </div>
+      <br>
+      <br>
     </div>
+  </div>
 
   <!-- Scripts required to make Bootstrap work better. -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

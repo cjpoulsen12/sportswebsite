@@ -17,11 +17,52 @@
     .below_menu_container {
       padding-top: 50px;
     }
+    .below_header {
+      padding-top: 20px;
+    }
     p {
-        text-align: left;
-        font-size: 20px;
-        color: #1D2326;
-    } 
+      text-align: left;
+      font-size: 20px;
+      color: #1D2326;
+    }
+    .mycolor {
+      background-color: #EEEEEE;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 3px;
+    }
+    .header {
+      background-image: url("img/content/mainpage.png");
+      background-repeat: repeat-x;
+      height: 80%;
+      width: 100%;
+      padding: 65px;
+      opacity: 0.3;
+      filter: alpha(opacity=30);
+      position: relative;
+    }
+    .floating {
+      position: absolute;
+      top: 70px;
+    }
+    .jumbotron {
+      margin-bottom: 0px;
+      padding-bottom: 5px;
+      background-image: url("img/dsm.png");
+      background-position: 0% 25%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+      text-shadow: black 0.3em 0.3em 0.3em;
+
+    }
+    .lead {
+      color: white;
+      margin-top: 10%;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+    }
+    
   </style>
 </head>
 
@@ -60,41 +101,73 @@
       </div>
     </div>
   </nav>
-    
-    <div id="header">
-        <h1></h1>
+
+  <div class="below_menu_container">
+    <div  class="header">
+      <h1></h1>
     </div>
-    <div id="floating">
-        <h1 style="text-align: left;font-size: 52px;color: #183152;" >Sign Up</h1>    
+
+    <div class="floating">
+        <h1 style="text-align: center;font-size: 70px;color: #183152; font-weight: bold; margin: 20px;" >  iSports</h1>    
     </div>
-    
-    <section>
-        <div class="border">
-            <form>
-                <br>
-                First Name:<br>
-                <input type="text" name="firstname"><br>
-                Last Name:<br>
-                <input type="text" name="lastname"><br><br>
-                <input type="radio" name="gender" value="male" checked>Male<br>
-                <input type="radio" name="gender" value="female">Female<br>
-                <input type="radio" name="gender" value="other">Other<br><br>
-                Username:<br>
-                <input type="text" name="username"><br>
-                Password:<br>
-                <input type="password" name="password"><br>
-                Confirm Password:<br>
-                <input type="password" name="password"><br><br>
-                <input type="submit" value="Submit">
-            </form>
+  </div>
+
+    <!--Main Content-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div>
+          <h1 style="text-align: left;font-size: 45px;color: #183152;">Sign Up</h1>    
         </div>
-    </section>
-    
+
+        <br>
+        <form class="form-signin">
+          <div class="alert alert-info" role="alert">Your first month of membership is on us!</div>
+          <label for-"inputName" class="sr-only">First Name</label>
+          <input type="text" id="inputName" class="form-control" placeholder="First Name" required>
+          <br>
+          <label for-"inputName" class="sr-only">Last Name</label>
+          <input type="text" id="inputName" class="form-control" placeholder="Last Name" required>
+          <br>
+          <label class="checkbox-inline">
+            <input type="checkbox" id="inlineCheckbox1" value="option1"> Female
+          </label>
+          <label class="checkbox-inline">
+            <input type="checkbox" id="inlineCheckbox2" value="option2"> Male
+          </label>
+          <label class="checkbox-inline">
+            <input type="checkbox" id="inlineCheckbox3" value="option3"> Other
+          </label>
+          <br>
+          <br>
+          <label for-"inputEmail" class="sr-only">Email Address</label>
+          <input type="email" id="inputEmail" class="form-control" placeholder="Email Address" required autofocus>
+          <br>
+          <label for="inputPassword" class="sr-only">Password</label>
+          <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+          <br>
+          <label for="inputPassword" class="sr-only">Confirm Password</label>
+          <input type="password" id="inputPassword" class="form-control" placeholder="Confirm Password" required>
+          <br>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
+          <br>
+        </form>
+      
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
     <br>
     <br>
     <div>
-        <a style="font-size: 14px; font-family: bangla MN, sans-serif">&copy; Copyright 2016 iSports News</a>
+        <a style="font-size: 20px;">&copy; Copyright 2016 iSports News</a>
     </div>
+    <br>
+    <br>
+  </div>
 
     <!-- Scripts required to make Bootstrap work better. -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

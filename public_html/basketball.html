@@ -17,11 +17,52 @@
     .below_menu_container {
       padding-top: 50px;
     }
+    .below_header {
+      padding-top: 20px;
+    }
     p {
-        text-align: left;
-        font-size: 20px;
-        color: #1D2326;
-    } 
+      text-align: left;
+      font-size: 20px;
+      color: #1D2326;
+    }
+    .mycolor {
+      background-color: #EEEEEE;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 3px;
+    }
+    .header {
+      background-image: url("img/content/mainpage.png");
+      background-repeat: repeat-x;
+      height: 80%;
+      width: 100%;
+      padding: 65px;
+      opacity: 0.3;
+      filter: alpha(opacity=30);
+      position: relative;
+    }
+    .floating {
+      position: absolute;
+      top: 70px;
+    }
+    .jumbotron {
+      margin-bottom: 0px;
+      padding-bottom: 5px;
+      background-image: url("img/dsm.png");
+      background-position: 0% 25%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+      text-shadow: black 0.3em 0.3em 0.3em;
+
+    }
+    .lead {
+      color: white;
+      margin-top: 10%;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+    }
+    
   </style>
 </head>
 
@@ -60,34 +101,62 @@
       </div>
     </div>
   </nav>
-    
-    <div id="header">
-        <h1></h1>
+
+  <div class="below_menu_container">
+    <div  class="header">
+      <h1></h1>
     </div>
-    <div id="floating">
-        <h1 style="text-align: left;font-size: 52px;color: #183152;" >Basketball</h1>    
+
+    <div class="floating">
+        <h1 style="text-align: center;font-size: 70px;color: #183152; font-weight: bold; margin: 20px;" >  iSports</h1>    
     </div>
-    
-    <section>
-        <div class="border">
-            <h3>Popular Videos:</h3>
-            <p>Be sure to check out these links below to get some more insight into the sports you may have missed yesterday, the absolute worst plays in the last 24 hours, and some of the classics! We update these every 12 hours!</p>
-            <a href="https://www.youtube.com/watch?v=YHFnM5zbCaY">Yesterdays Highlights</a>
-            <br>
-            <br>
-            <a href="https://www.youtube.com/watch?v=bKAWKkProvI">Worst Plays of the Day</a>
-            <br>
-            <br>
-            <a href="https://www.youtube.com/watch?v=LY6DJa5rofo">Classics Today</a>
-            <br>
-        </div>
-    </section>
-    
-    <br>
-    <br>
+  </div>
+
+    <!--Main Content-->
+  <div class="container">
     <div>
-        <a style="font-size: 14px; font-family: bangla MN, sans-serif">&copy; Copyright 2016 iSports News</a>
+      <div>
+          <h1 style="text-align: left;font-size: 45px;color: #183152;">Basketball</h1>    
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Yesterday's Highlights</h2>
+          <p>Click the button below to watch all of yesterday's highlights from many different sports!</p>
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=YHFnM5zbCaY" role="button">Watch 
+            <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+          </a>
+          </p>
+        </div>
+
+       <div class="col-md-4">
+          <h2>Worst Plays of the Day</h2>
+          <p>Click the button below to watch all of the worst plays of today!</p>
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=bKAWKkProvI" role="button">Watch 
+            <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+          </a>
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <h2>Classics Today</h2>
+          <p>Click the button below to watch all of the classics from today!</p>
+          <p class="btn btn-primary" href="https://www.youtube.com/watch?v=LY6DJa5rofo" role="button">Watch 
+            <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+          </a>
+          </p>
+        </div>
+      </div>
+  
+      <br>
+      <br>
+      <div>
+          <a style="font-size: 20px;">&copy; Copyright 2016 iSports News</a>
+      </div>
+      <br>
+      <br>
     </div>
+  </div>
 
   <!-- Scripts required to make Bootstrap work better. -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
