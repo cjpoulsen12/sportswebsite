@@ -21,7 +21,28 @@
         text-align: left;
         font-size: 20px;
         color: #1D2326;
-    } 
+    }
+    .mycolor {
+        background-color: #EEEEEE;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 3px;
+    }
+    .header {
+        background-image: url("img/content/mainpage.png");
+        background-repeat: repeat-x;
+        height: 80%;
+        width: 100%;
+        padding: 65px;
+        opacity: 0.3;
+        filter: alpha(opacity=30);
+        position: relative;
+    }
+    .floating {
+        position: absolute;
+        top: 70px;
+    }
+    
   </style>
 </head>
 
@@ -60,76 +81,98 @@
       </div>
     </div>
   </nav>
-   
-    <div id="header">
-        <h1></h1>
-    </div>
-    <div id="floating">
-        <h1 style="text-align: left;font-size: 52px;color: #183152;" >Baseball</h1>    
-    </div>
-    
-    <section>
-        <div class="border">
-            <h3 style="font-size: 30px">Statistics</h3>
-            <p>Here are the stats from the last season for some of our favortie teams.</p>
-            <div id="center">
-                <table>
-                    <thead>
-                      <tr>
-                        <th>Team Name</th>
-                        <th>Wins</th>
-                        <th>Losses</th>
-                        <th>Homeruns</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Pigs</td>
-                        <td>17</td>
-                        <td>13</td>
-                        <td>23</td>
-                      </tr>
-                      <tr>
-                        <td>Stallions</td>
-                        <td>20</td>
-                        <td>10</td>
-                        <td>25</td>
-                      </tr>
-                      <tr>
-                        <td>All Stars</td>
-                        <td>25</td>
-                        <td>5</td>
-                        <td>51</td>
-                      </tr>
-                      <tr>
-                        <td>Snakes</td>
-                        <td>12</td>
-                        <td>18</td>
-                        <td>17</td>
-                      </tr>
-                    </tbody>
-                </table>
-                <br>
-                <br>
-            </div>
 
-            <div class="center">
-                <img src="img/snake.png" alt="snake" width=200 />
-                <img src="img/hitter.png" alt="hitter" width=200 />
-                <img src="img/baseball.png" alt="baseball" width=200 />
-            </div>
-            
-            <h4 style="font-size: 25px">Survey!</h4>
-            <p>Please let us know which teams you support and want to see more stats about! We would love to hear your feedback! Every person who takes our survey will receive 10% off their next game ticket and we will use our results to display the stats that our fans want to see the most!</p>
+  <div class="below_menu_container">
+    <div  class="header">
+      <h1></h1>
+    </div>
 
-        </div>
-    </section>
-    
-    <br>
-    <br>
+    <div class="floating">
+        <h1 style="text-align: center;font-size: 70px;color: #183152; font-weight: bold; margin: 20px;" >  iSports</h1>    
+    </div>
+  </div>
+
+  <!--Main Content-->
+  <div class="container">
     <div>
-        <a style="font-size: 14px; font-family: bangla MN, sans-serif">&copy; Copyright 2016 iSports News</a>
+      <div>
+          <h1 style="text-align: left;font-size: 52px;color: #183152;" >Baseball</h1>    
+      </div>
+      
+      <h2 >Statistics</h2>
+      <p>Here are the stats from the last season for some of our favortie teams.</p>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Team Name</th>
+                <th>Wins</th>
+                <th>Losses</th>
+                <th>Homeruns</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Pigs</td>
+                <td>17</td>
+                <td>13</td>
+                <td>23</td>
+              </tr>
+              <tr>
+                <td>Stallions</td>
+                <td>20</td>
+                <td>10</td>
+                <td>25</td>
+              </tr>
+              <tr>
+                <td>All Stars</td>
+                <td>25</td>
+                <td>5</td>
+                <td>51</td>
+              </tr>
+              <tr>
+                <td>Snakes</td>
+                <td>12</td>
+                <td>18</td>
+                <td>17</td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <br>
+        </div>
+
+        <div class="col-xs-4 col-md-4">   
+          <div class="img">
+              <img src="img/snake.png" alt="NFL" width="200">
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-md-4">   
+          <div class="img">
+              <img src="img/hitter.png" alt="baseball" width="200">
+          </div>
+        </div>
+                
+        <div class="col-xs-4 col-md-4">  
+          <div class="img">
+              <img src="img/baseball.png" alt="Fire" width="200">
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-12">         
+          <h2>Survey!</h2>
+          <p>Please let us know which teams you support and want to see more stats about! We would love to hear your feedback! Every person who takes our survey will receive 10% off their next game ticket and we will use our results to display the stats that our fans want to see the most!</p>
+          <br>
+        </div>
+      </div>
+ 
+      <div>
+          <a style="font-size: 20px;">&copy; Copyright 2016 iSports News</a>
+      </div>
     </div>
+  </div>
     
   <!-- Scripts required to make Bootstrap work better. -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

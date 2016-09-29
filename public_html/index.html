@@ -23,6 +23,26 @@
         font-size: 20px;
         color: #1D2326;
     }
+    .mycolor {
+        background-color: #EEEEEE;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 3px;
+    }
+    .header {
+        background-image: url("img/content/mainpage.png");
+        background-repeat: repeat-x;
+        height: 80%;
+        width: 100%;
+        padding: 65px;
+        opacity: 0.3;
+        filter: alpha(opacity=30);
+        position: relative;
+    }
+    .floating {
+        position: absolute;
+        top: 70px;
+    }
     
   </style>
   <!--<link rel="stylesheet" type="text/css" href="css/stylesheet.css">-->
@@ -65,16 +85,23 @@
     </div>
   </nav>
 
+  <div class="below_menu_container">
+    <div  class="header">
+      <h1></h1>
+    </div>
+
+    <div class="floating">
+        <h1 style="text-align: center;font-size: 70px;color: #183152; font-weight: bold; margin: 20px;" >  iSports</h1>    
+    </div>
+  </div>
+
   <!--Main Content-->
   <div class="container">
-    <div class="below_menu_container">
-      <div>
-          <h1 style="text-align: left;font-size: 52px;color: #183152;" >iSports</h1>    
-      </div>
+    <div>
 
       <div class="row">
         <div class="col-xs-12 col-md-12">
-          <h3 style="font-size: 30px">Welcome to iSports!</h3>
+          <h2>Welcome to iSports!</h2>
           
           <p>Welcome to the iSports sports news website. We bring you all of the news about all of the sports all of the time. Some of our most popular sports are baseball, basketball, and football, but we offer something for every type of sport there is out there. We even have all of the game highlights in one convenient location!</p>
         </div>
@@ -97,7 +124,8 @@
           </div>
         </div>
 
-        <div class="col-xs-12 col-md-6">
+        <div class="col-xs-12 col-md-6 mycolor">
+          <h2>Read About Sports</h2>
           <p> We have various articles about every sport that can be read at this link. <a href="articles.html">Articles of the Day.</a> Please explore everything our website has to offer! </p>
           <br>
           <br>
@@ -105,7 +133,8 @@
           <br>
         </div>
 
-        <div class="col-xs-12 col-md-6">
+        <div class="col-xs-12 col-md-6 mycolor">
+          <h2>Join the Team</h2>
           <p>Do you consider yourself a sports fanatic? Make sure to check out all of our special deals that being a member of our website has to offer! Discounts off game tickets, being able to meet with professional athletes, and free team clothing are some of the benefits we have to offer! Make sure you sign up today and you won't regret it!</p>
 
           <div>
@@ -118,7 +147,7 @@
       <br>
       <br>
       <div>
-          <a style="font-size: 14px; font-family: bangla MN, sans-serif">&copy; Copyright 2016 iSports News</a>
+          <a style="font-size: 20px;">&copy; Copyright 2016 iSports News</a>
       </div>
     </div>
   </div>
