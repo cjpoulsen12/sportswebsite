@@ -54,34 +54,45 @@
 
 			<h1> Sign Up </h1>
 		    
-		    <form>
-	            First name:
-	            <br>
-	            <input type="text" name="firstname">
-	            <br>
-	            Last name:
-	            <br>
-	            <input type ="text" name="lastname">
-	            <br>
-	            Gender: <br>
-	            <input type="radio" name="gender" value="male"> Male <br>
-	            <input type="radio" name="gender" value="female"> Female <br>
-	            <input type="radio" name="gender" value="other"> Other<br>
-
-	            Username:
-	            <br>
-	            <input type="text" name="username">
-	            <br>
-	            Password:
-	            <br>
-	            <input type="password" name="password">
-	            <br>
-	            Confirm Password:
-	            <br>
-	            <input type="password" name="confirmedPassword">
-	            <br> <br>
-	            <input type="submit" value="Submit">
-		    </form>
+			<form>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1">Email Address:</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputUsername1">Username:</label>
+			    <input type="password" class="form-control" id="exampleInputUsername1" placeholder="Username">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputPassword1">Password:</label>
+			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputConfirmationPassword1">Confirmation Password:</label>
+			    <input type="password" class="form-control" id="exampleInputConfirmationPassword1" placeholder="Confirmation Password">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputFirstName1">First Name:</label>
+			    <input type="password" class="form-control" id="exampleInputFirstName1" placeholder="First Name">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputLastName1">Last Name:</label>
+			    <input type="password" class="form-control" id="exampleInputLastName1" placeholder="Last Name">
+			  </div>
+			  <div class="radio">
+				  <label>
+				    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+				    Female
+				  </label>
+			  </div>
+			  <div class="radio">
+				  <label>
+				    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+				    Male
+				  </label>
+			  </div>
+			  <button type="submit" class="btn btn-default">Submit</button>
+			</form>
 
 		    <br>
 		    <br>
