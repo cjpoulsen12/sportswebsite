@@ -59,12 +59,18 @@ border-width: 3px;
 margin: 5px;
 border-radius: 15px;
 border-color: #6F1C31;
+border: 3px solid #6F1C31;
+border-collapse: collapse;
 }
 
 table thead th{
 padding: 10px;
+border: 3px solid #6F1C31;
+background-color: #053725;
+color: #E5D099;
 }
 
 table tbody td {
 padding: 10px;
+border: 3px solid #6F1C31;
 }
