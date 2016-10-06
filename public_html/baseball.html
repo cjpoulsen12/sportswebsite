@@ -3,12 +3,24 @@
 <html lang="en">
 
   <head>
+  
+      <meta charset="utf-8">
+    <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta charset="utf-8">
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 
     <link rel="stylesheet" type="text/css" href="css/style_sheet.css">
 
-    <title>Isports - Baseball</title>
+    <title>iSports - News Website</title>
+
+    <meta charset="utf-8">
+
 
     <style>
       img {
@@ -38,7 +50,7 @@
       </ul>
     </nav>
     
-   <table>
+   <table class="table">
       <thead>
         <tr>
           <th>Team Name</th>
@@ -50,25 +62,25 @@
 
       <tbody>
         <tr>
-          <td>Pigs</td>
+          <th scope="row">Pigs</th>
           <td>17</td>
           <td>13</td>
           <td>23</td>
         </tr>
         <tr>
-          <td>Stallions</td>
+          <th scope="row">Stallions</th>
           <td>20</td>
           <td>10</td>
           <td>25</td>
         </tr>
         <tr>
-          <td>All Stars</td>
+          <th scope="row">All Stars</th>
           <td>25</td>
           <td>5</td>
           <td>51</td>
         </tr>
         <tr>
-          <td>Snakes</td>
+          <th scope="row">Snakes</th>
           <td>12</td>
           <td>18</td>
           <td>17</td>
@@ -91,7 +103,8 @@
       <br>
       
       <footer> &copy; Copyright 2016, iSports News</footer>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 
 </html>
