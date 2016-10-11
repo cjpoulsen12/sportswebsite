@@ -53,16 +53,21 @@ form {
 
 table {
 padding: 3px;
-text-align: center;
 border-style: solid;
 border-width: 3px;
 margin: 5px;
 border-radius: 15px;
 border-color: #6F1C31;
+border: 3px solid #6F1C31;
+border-collapse: collapse;
+color: black;
 }
 
 table thead th{
 padding: 10px;
+background-color: #053725;
+color: #E5D099;
+
 }
 
 table tbody td {
