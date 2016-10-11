@@ -32,9 +32,9 @@ h1 {
     color: #E5D099;
     font-size: 80px;
     font-family: Georgia, Palatino, serif;
-    height: 105px;
     text-align: center;
     margin: 0px;
+    padding:10px;
 }
 
 footer{
