@@ -13,7 +13,11 @@
 	  <link rel="stylesheet" type="text/css" href="css/style_sheet.css">
 
 	  <title>iSports - Sign Up</title>
-
+	    <style>
+	        .jumbotron{
+	            background-color: beige      
+	      }
+	    </style>
 	</head>
 
 	<body>
@@ -25,35 +29,57 @@
 	      		<li> <a class="left" href="index.html">Main Page</a> </li>
 	    	</ul>
 	 	</nav>
-	    
-	    <form>
-	            First name:
+	 	<div class="container">
+	 	     <div class= "jumbotron">
+	 	     <form>
+	 	     <div class="required-field-header">(<span class="required">*</span>)=Fill it out! Or Else.</div>
+	            *First name:
 	            <br>
 	            <input type="text" name="firstname">
 	            <br>
-	            Last name:
+	            *Last name:
 	            <br>
 	            <input type ="text" name="lastname">
 	            <br>
-	            Username:
+	            *Email:
+	            <br>
+	            <input type ="text" name="email">
+	            <br>
+	            Address:
+	            <br>
+	            <input type ="text" name="address">
+	            <br>
+	            City:
+	            <br>
+	            <input type ="text" name="city">
+	            <br>
+	            State:
+	            <br>
+	            <input type ="text" name="state">
+	            <br>
+	            Phone:
+	            <br>
+	            <input type ="text" name="phone">
+	            <br>
+	            *Username:
 	            <br>
 	            <input type="text" name="username">
 	            <br>
-	            Password:
+	            *Password:
 	            <br>
 	            <input type="password" name="password">
 	            <br>
-	            Confirm Password:
+	            *Confirm Password:
 	            <br>
 	            <input type="password" name="confirmedPassword">
 	            <br> <br>
-	            <input type="submit" value="Submit">
-	    </form>
+	            <div class="form-group">
+                <button type="button" class="btn btn-primary btn-lg">Sign Me Up</button>
+              </div>
 
 	    <br>
-	    <br>
 
-	    <footer> &copy; Copyright 2016, iSports News</footer>
+	     <footer> &copy; Copyright 2016, iSports News</footer>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</body>

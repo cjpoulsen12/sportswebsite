@@ -14,10 +14,18 @@
 	  <link rel="stylesheet" type="text/css" href="css/style_sheet.css">
 
 	  <title>iSports - Login</title>
+
+	  <style>
+	    .jumbotron{
+	        background-color: beige
+	         
+	    }
+	  </style>
+
 	</head>
 
 	<body>
-
+	
 	 	<h1> Log In </h1>
 
 		<nav>
@@ -25,22 +33,24 @@
 	      		<li> <a class="left" href="index.html">Main Page</a> </li>
 	    	</ul>
 	 	</nav>
-	<div class="container">
-	    <form>
-	    <form class="form-horizontal">
-	        Username:
-	        <br>
-	        <input type="text" name="username">
-	        <br>
-	        Password
-	        <br>
-	        <input type="password" name="password">
-	        <br><br>
-	        <div class="checkbox">
-          	<label><input type="checkbox"> Remember me</label>  
-          	<br><br>
-	        <input type="submit" value="Submit">
-	    </form>
+	 	<div class="container">
+	 	     <div class= "jumbotron">
+	 	     <form class="address-form rio user-registration-form" method="post" action="/UserRegistrationAdd" >
+	 	     <form>        
+                Username:
+                <br>
+                <input type="text" name="username">
+                <br>
+                Password
+                <br>
+                <input type="password" name="password">
+                <br><br>
+                <div class="checkbox">
+                <label><input type="checkbox"> Remember me</label>  
+                <br><br>
+                <div class="form-group">
+                <button type="button" class="btn btn-primary btn-lg">Log Me In</button>
+            </form>
 
 	    <br>
 	    <br>
