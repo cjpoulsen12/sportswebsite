@@ -25,6 +25,8 @@ nav li a {
 
 nav li a:hover {
     background-color: #7A611F;
+    text-decoration: none;
+    color: #efe8d5;
 }
 
 h1 {
